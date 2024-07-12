@@ -91,7 +91,6 @@ def edit_entry(request, entry_id):
     )
 
 
-
 def simple_from_views(request):
     form = SimpleForm()
     return render(
@@ -99,23 +98,3 @@ def simple_from_views(request):
         'learning_logs/simple_from_view.html',
         {'form': form}
     )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
